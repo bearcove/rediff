@@ -1,5 +1,13 @@
 # rediff
 
+> [!IMPORTANT]
+> Rediff has moved to the Facet monorepo:
+> <https://github.com/facet-rs/facet/tree/main/rediff>.
+>
+> Please open future issues and pull requests in
+> <https://github.com/facet-rs/facet>. This standalone repository is retained
+> for history and archival purposes.
+
 Structural diffing and assertions for [Facet](https://github.com/bearcove/facet) types.
 
 Compare any Facet-derived type without requiring `PartialEq` - rediff uses reflection to compare values structurally and produce detailed, colorized diff output.
