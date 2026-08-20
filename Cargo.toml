@@ -30,14 +30,23 @@ owo-colors = "4.2.3"
 palette = { version = "0.7", default-features = false, features = ["std"] }
 terminal-colorsaurus = "1"
 unicode-width = "0.2.2"
-tracing = { version = "0.1.43", default-features = false, features = ["std", "attributes"], optional = true }
+tracing = { version = "0.1.43", default-features = false, features = [
+  "std",
+  "attributes",
+], optional = true }
 
 [dev-dependencies]
 facet = { version = "0.50.0-rc.6", features = ["all-impls"] }
-tracing = { version = "0.1.43", default-features = false, features = ["std", "attributes"] }
+tracing = { version = "0.1.43", default-features = false, features = [
+  "std",
+  "attributes",
+] }
 
 [lints.clippy]
 disallowed_methods = "deny"
 
 [lints.rust]
-unexpected_cfgs = { level = "warn", check-cfg = ["cfg(facet_no_doc)", "cfg(kani)"] }
+unexpected_cfgs = { level = "warn", check-cfg = [
+  "cfg(facet_no_doc)",
+  "cfg(kani)",
+] }
