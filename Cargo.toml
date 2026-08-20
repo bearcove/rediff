@@ -1,6 +1,6 @@
 [package]
 name = "rediff"
-version = "0.50.0-rc.6"
+version = "0.50.0-rc.7"
 edition = "2024"
 rust-version = "1.92"
 authors = ["Amos Wenger <amos@bearcove.eu>"]
