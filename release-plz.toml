@@ -1,0 +1,9 @@
+[workspace]
+changelog_update = true
+semver_check = true
+dependencies_update = true
+git_release_enable = true
+
+[[package]]
+name = "rediff"
+changelog_path = "CHANGELOG.md"
